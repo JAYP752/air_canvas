@@ -48,7 +48,7 @@ When you run the application:
 ### 1. Clone the Repository
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/JAYP752/air_canvas.git
 cd air_canvas
 ```
 
