@@ -52,7 +52,26 @@ git clone https://github.com/JAYP752/air_canvas.git
 cd air_canvas
 ```
 
-### 2. Create Virtual Environment
+### 2. Install Python 3.10
+
+Ensure you have Python 3.10 installed.
+
+**Linux (Ubuntu/Debian):**
+
+```bash
+sudo apt update && sudo apt install python3.10 python3.10-venv
+```
+
+**macOS (Homebrew):**
+
+```bash
+brew install python@3.10
+```
+
+**Windows / macOS (Manual):**
+Download the installer directly from [python.org](https://www.python.org/downloads/release/python-3100/).
+
+### 3. Create Virtual Environment
 
 ```bash
 # Create virtual environment
@@ -65,13 +84,13 @@ source venv/bin/activate
 # venv\Scripts\activate
 ```
 
-### 3. Install Dependencies
+### 4. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Run the Application
+### 5. Run the Application
 
 ```bash
 python main.py
